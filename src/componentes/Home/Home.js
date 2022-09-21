@@ -1,11 +1,17 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
 import PageTitle from '../Helmet/PageTitle';
 
 const Home = () => {
+
     return (
         <div>
             <PageTitle title="Home"></PageTitle>
-            <h1 className='text-2xl'>how are you</h1>
+
+            <section>
+                <Banner />
+            </section>
+
         </div>
     );
 };
