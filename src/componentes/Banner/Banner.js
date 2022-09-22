@@ -11,7 +11,7 @@ const Banner = () => {
 
     return (
         <div>
-            <section>
+            <section className='mx-20 mt-5'>
                 <Slider>
                     <div className="flex justify-between gap-5 mx-auto bg-slate-300">
                         <div className='flex-initial'>
